@@ -1,0 +1,29 @@
+﻿<Window x:Class="mylib.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mylib"
+        mc:Ignorable="d"
+        Title="Admin Details" Height="800" Width="1379" Background="#feddc9">
+    <Grid>
+
+        <Label Height="50" Margin="116,100,1068.8,617.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Name"/>
+        <Label Height="50" Margin="116,175,1068.8,545.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Address"/>
+        <Label Height="50" Margin="116,240,1068.8,472.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Telephone No"/>
+        <Label Height="50" Margin="116,310,1068.8,399.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Email Address"/>
+        <Label Height="50" Margin="116,370,1068.8,329.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Edit Photo"/>
+
+
+        <TextBox Height="50" Margin="399,103,179.8,617.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,176,179.8,544.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,244,179.8,476.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,316,179.8,404.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+
+        <Button Margin="584,662,530.8,62.4" Background="#ffa570" FontFamily="arial black" Content="Save" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
+
+        <Label Width="223.2" Height="281" Margin="399,381,750.8,108.4"/>
+        <Button Height="50" Margin="647,381,598.8,339.4" Content="Browse..." FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+
+    </Grid>
+</Window>

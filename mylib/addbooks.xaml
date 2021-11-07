@@ -1,0 +1,24 @@
+﻿<Window x:Class="mylib.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mylib"
+        mc:Ignorable="d"
+       Title="Add Books" Height="800" Width="1379" Background="#feddc9">
+    <Grid>
+        <Label Height="50" Margin="116,42,1039.8,678.4" FontFamily="arial black" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Add Books"/>
+        <Label Height="50" Margin="116,175,1015.8,545.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Name of the Book"/>
+        <Label Height="50" Margin="116,244,1015.8,476.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Auther"/>
+        <Label Height="50" Margin="116,316,1015.8,404.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Discription"/>
+        <Label Height="50" Margin="116,381,1015.8,339.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Cover Page"/>
+        <TextBox Height="50" Margin="399,176,67.8,544.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,244,67.8,476.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,316,67.8,404.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+
+        <Button Margin="540,676,574.8,48.4" Background="#ffa570" FontFamily="arial black" Content="Add" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
+
+        <Label Width="223.2" Height="281" Margin="399,381,750.8,108.4"/>
+        <Button Height="50" Margin="647,381,598.8,339.4" Content="Browse..." FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+    </Grid>
+</Window>

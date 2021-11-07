@@ -1,0 +1,25 @@
+﻿<Window x:Class="mylib.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mylib"
+        mc:Ignorable="d"
+        Title="Home" Height="800" Width="1379" Background="#feddc9">
+    <Grid>
+        <Rectangle Margin="586,271,583.8,276.4">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\New folder\books.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Margin="586,140,588.8,574.4" RenderTransformOrigin="0.726,1.075">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\New folder\mylib.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Margin="320,549,272.8,27.4" Content="          With the development of technology now we can &#xD;&#xA;       purchase the books or read the books we need online&#xD;&#xA;       such as eBooks. Here we show all books available and&#xD;&#xA;          you can add the books you need to our own library.&#xD;&#xA;      Therefore, in MyLib you can manage the books in your &#xD;&#xA;                                        own library." Foreground="#200c00" FontFamily="arial black" FontSize="22"/>
+        <Label FontFamily="algerian" FontSize="50" FontWeight="Regular" Foreground="#200c00" Margin="68,55,939.8,619.4">
+            About Us....
+        </Label>
+    </Grid>
+</Window>

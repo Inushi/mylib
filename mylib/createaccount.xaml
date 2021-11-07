@@ -1,0 +1,26 @@
+﻿<Window x:Class="mylib.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mylib"
+        mc:Ignorable="d"
+        Title="Create Account" Height="800" Width="1300" Background="#feddc9">
+    <Grid>
+        <Label Height="50" Margin="116,48,527.6,672.4" FontFamily="arial black" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Create an Account"/>
+        <Label Height="50" Margin="116,130,957.6,590.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Full Name"/>
+        <Label Height="50" Margin="116,190,957.6,540.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Address"/>
+        <Label Height="50" Margin="116,250,957.6,483.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Telephone No"/>
+        <Label Height="50" Margin="116,310,957.6,422.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Date of Birth"/>
+        <Label Height="50" Margin="116,491,957.6,229.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Email"/>
+
+
+        <TextBox Height="50" Margin="399,130,77.6,590.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,190,77.6,530.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,250,495.6,470.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,491,77.6,229.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+
+        <Button Margin="530,644,527.6,67.4" Background="#ffa570" FontFamily="arial black" Content="Create" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
+        <Calendar Margin="399,310,698.6,284.4" RenderTransformOrigin="1.155,0.28"></Calendar>
+    </Grid>
+</Window>

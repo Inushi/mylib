@@ -1,0 +1,32 @@
+﻿<Window x:Class="mylib.Window9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mylib"
+        mc:Ignorable="d"
+         Title="My List" Height="800" Width="1379" Background="#feddc9">
+    <Grid>
+        <Label Margin="116,22,985.8,695.4" FontFamily="arial black" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="My List"/>
+
+        <Label Height="50" Margin="116,80,347.8,640.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="The Spiderwick Chronicles    -    By Tony DiTerilizzi and  Holly Black "/>
+        <Label Height="50" Margin="116,150,347.8,570.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Peter Pan    -    By J.M.Barrie "/>
+        <Label Height="50" Margin="116,220,347.8,500.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Saviours Day    - By Lewis Kinmond "/>
+       
+        <Label Height="50" Margin="116,292,248.8,428.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+        <Label Height="50" Margin="116,360,248.8,360.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+        <Label Height="50" Margin="116,432,248.8,288.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+        <Label Height="50" Margin="116,500,347.8,232.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+        <Label Height="50" Margin="116,570,347.8,170.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+        <Label Height="50" Margin="116,640,347.8,232.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+        <Label Height="50" Margin="116,710,347.8,232.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>
+
+        <Button Height="50" Margin="1030,80,235.8,640.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Read" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
+        <Button Height="50" Margin="1030,150,235.8,570.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Read" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
+        <Button Height="50" Margin="1030,220,235.8,500.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Read" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
+
+        <Button Height="50" Margin="1180,80,85.8,640.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Delete" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
+        <Button Height="50" Margin="1180,150,85.8,570.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Delete" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
+        <Button Height="50" Margin="1180,220,85.8,500.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Delete" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
+    </Grid>
+</Window>

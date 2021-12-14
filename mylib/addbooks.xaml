@@ -16,7 +16,7 @@
         <TextBox Height="50" Margin="399,244,67.8,476.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
         <TextBox Height="50" Margin="399,316,67.8,404.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
 
-        <Button Margin="540,676,574.8,48.4" Background="#ffa570" FontFamily="arial black" Content="Add" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
+        <Button Margin="540,676,574.8,48.4" Background="#ffa570" FontFamily="arial black" Content="Add" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" Click="Button_Click" />
 
         <Label Width="223.2" Height="281" Margin="399,381,750.8,108.4"/>
         <Button Height="50" Margin="647,381,598.8,339.4" Content="Browse..." FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>

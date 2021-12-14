@@ -23,8 +23,8 @@
         <Label Height="50" Margin="399,480,179.8,240.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Grid.ColumnSpan="2"/>
         <Label Height="50" Margin="399,540,179.8,180.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Grid.ColumnSpan="2"/>
 
-        <Button Height="40" Margin="200,647,430.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Edit Details" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
-        <Button Height="40" Margin="547,647,83.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Add Books" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" />
+        <Button Height="40" Margin="200,647,430.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Edit Details" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" Click="Button_Click_2" />
+        <Button Height="40" Margin="547,647,83.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Add Books" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" Click="Button_Click_1" />
         <Button Height="40" Margin="10.2,647,204.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Edit and Delete Books" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" Grid.Column="1" Click="Button_Click" />
 
     </Grid>

@@ -26,7 +26,9 @@ namespace mylib
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Window2 toLogin = new Window2();
+            toLogin.Show();
+            this.Hide();
         }
     }
 }

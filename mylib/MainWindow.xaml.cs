@@ -29,7 +29,7 @@ namespace mylib
         {
             Window1 toLogin = new Window1();
             toLogin.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

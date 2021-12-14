@@ -49,7 +49,7 @@ namespace mylib
         {
             Window7 toLogin = new Window7();
             toLogin.Show();
-            this.Hide();
+            //this.Hide();
         }
     }
 }

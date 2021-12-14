@@ -28,7 +28,7 @@ namespace mylib
         {
             Window10 toLogin = new Window10();
             toLogin.Show();
-            this.Hide();
+           // this.Hide();
         }
     }
 }

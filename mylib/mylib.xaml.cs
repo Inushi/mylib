@@ -28,7 +28,7 @@ namespace mylib
         {
             Window8 toLogin = new Window8();
             toLogin.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

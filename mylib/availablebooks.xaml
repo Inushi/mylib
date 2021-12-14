@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:mylib"
         mc:Ignorable="d"
          Title="Books Available" Height="800" Width="1379" Background="#feddc9">
-    <Grid>
+    <Grid Margin="-44,4,43.8,-3.6">
         <Label Margin="116,22,985.8,695.4" FontFamily="arial black" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Available Books"/>
 
         <Label Height="50" Margin="116,80,248.8,640.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="The Spiderwick Chronicles    -    By Tony DiTerilizzi and  Holly Black "/>
@@ -26,6 +26,6 @@
         <Button Height="50" Margin="1153,220,131.8,500.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="View" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
         <Button Height="50" Margin="1153,292,131.8,428.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="View" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
         <Button Height="50" Margin="1153,360,131.8,360.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="View" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
-        <Button Height="50" Margin="1153,432,131.8,288.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="View" Background="#ffa570" RenderTransformOrigin="1.691,0.348"/>
+        <Button Height="50" Margin="1153,432,131.8,288.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="View" Background="#ffa570" RenderTransformOrigin="1.691,0.348" Click="Button_Click"/>
     </Grid>
 </Window>

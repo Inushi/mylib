@@ -65,6 +65,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Database\BooksContext.cs" />
+    <Compile Include="Database\MemberContext.cs" />
     <Compile Include="login.xaml.cs">
       <DependentUpon>login.xaml</DependentUpon>
     </Compile>
@@ -83,6 +85,8 @@
     <Compile Include="createaccount.xaml.cs">
       <DependentUpon>createaccount.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Books.cs" />
+    <Compile Include="Model\Member.cs" />
     <Compile Include="mylib.xaml.cs">
       <DependentUpon>mylib.xaml</DependentUpon>
     </Compile>
@@ -97,6 +101,9 @@
     </Compile>
     <Compile Include="edit,delete.xaml.cs">
       <DependentUpon>edit,delete.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="profile .xaml.cs">
+      <DependentUpon>profile .xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -151,6 +158,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="edit,delete.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="profile .xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

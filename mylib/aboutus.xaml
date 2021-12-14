@@ -9,12 +9,12 @@
     <Grid>
         <Rectangle Margin="586,271,583.8,276.4">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\New folder\books.png"/>
+                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\project\mylib\New folder\books.png"/>
             </Rectangle.Fill>
         </Rectangle>
         <Rectangle Margin="586,140,588.8,574.4" RenderTransformOrigin="0.726,1.075">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\New folder\mylib.png"/>
+                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\project\mylib\New folder\mylib.png"/>
             </Rectangle.Fill>
         </Rectangle>
         <Label Margin="320,549,272.8,27.4" Content="          With the development of technology now we can &#xD;&#xA;       purchase the books or read the books we need online&#xD;&#xA;       such as eBooks. Here we show all books available and&#xD;&#xA;          you can add the books you need to our own library.&#xD;&#xA;      Therefore, in MyLib you can manage the books in your &#xD;&#xA;                                        own library." Foreground="#200c00" FontFamily="arial black" FontSize="22"/>

@@ -17,7 +17,7 @@
                 <ImageBrush ImageSource="C:\Users\Inushi\Desktop\New folder\mylib.png"/>
             </Rectangle.Fill>
         </Rectangle>
-        <Button Margin="489,544,494.6,165.4" Background="#ffa570" FontFamily="arial black" Content="Availabel Book" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" Click="Button_Click" />
-        <Button Margin="489,642,494.6,67.4" Background="#ffa570" FontFamily="arial black" Content="My Book Library" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" />
+        <Button Margin="489,544,494.6,165.4" Background="#ffa570" FontFamily="arial black" Content="Available Book" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" Click="Button_Click" />
+        <Button Margin="489,650,494.6,59.4" Background="#ffa570" FontFamily="arial black" Content="My Book Library" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" Click="Button_Click_1" />
     </Grid>
 </Window>

@@ -23,5 +23,12 @@ namespace mylib
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window10 toLogin = new Window10();
+            toLogin.Show();
+            this.Hide();
+        }
     }
 }

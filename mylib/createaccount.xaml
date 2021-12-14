@@ -15,12 +15,12 @@
         <Label Height="50" Margin="116,491,957.6,229.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Email"/>
 
 
-        <TextBox Height="50" Margin="399,130,77.6,590.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
-        <TextBox Height="50" Margin="399,190,77.6,530.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
-        <TextBox Height="50" Margin="399,250,495.6,470.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
-        <TextBox Height="50" Margin="399,491,77.6,229.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,130,77.6,590.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00" Name="full_name"/>
+        <TextBox Height="50" Margin="399,190,77.6,530.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00" Name="address"/>
+        <TextBox Height="50" Margin="399,250,495.6,470.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00" Name="telephone_no"/>
+        <TextBox Height="50" Margin="399,491,77.6,229.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00" Name="e_mail"/>
 
-        <Button Margin="530,644,527.6,67.4" Background="#ffa570" FontFamily="arial black" Content="Create" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
-        <Calendar Margin="399,310,698.6,284.4" RenderTransformOrigin="1.155,0.28"></Calendar>
+        <Button Margin="530,644,527.6,67.4" Background="#ffa570" FontFamily="arial black" Content="Create" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" Click="register_click" />
+        <Calendar Margin="399,310,698.6,284.4" RenderTransformOrigin="1.155,0.28" Name="dob"></Calendar>
     </Grid>
 </Window>

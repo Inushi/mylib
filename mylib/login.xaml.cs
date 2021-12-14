@@ -23,5 +23,33 @@ namespace mylib
         {
             InitializeComponent();
         }
+
+        private void register_click(object sender, RoutedEventArgs e)
+        {
+
+            Window6 toRegister = new Window6();
+            toRegister.Show();
+            this.Hide();
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+             
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window2 toLogin = new Window2();
+            toLogin.Show();
+            this.Hide();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Window7 toLogin = new Window7();
+            toLogin.Show();
+            this.Hide();
+        }
     }
 }

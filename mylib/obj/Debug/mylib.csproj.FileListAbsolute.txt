@@ -35,3 +35,10 @@ C:\Users\Inushi\Desktop\project\mylib\mylib\obj\Debug\Matilda.g.cs
 C:\Users\Inushi\Desktop\project\mylib\mylib\obj\Debug\Matilda.baml
 C:\Users\Inushi\Desktop\project\mylib\mylib\obj\Debug\edit,delete.g.cs
 C:\Users\Inushi\Desktop\project\mylib\mylib\obj\Debug\edit,delete.baml
+C:\Users\Inushi\Desktop\project\mylib\mylib\bin\Debug\EntityFramework.dll
+C:\Users\Inushi\Desktop\project\mylib\mylib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Inushi\Desktop\project\mylib\mylib\bin\Debug\EntityFramework.xml
+C:\Users\Inushi\Desktop\project\mylib\mylib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Inushi\Desktop\project\mylib\mylib\obj\Debug\mylib.csproj.CopyComplete
+C:\Users\Inushi\Desktop\project\mylib\mylib\obj\Debug\profile .g.cs
+C:\Users\Inushi\Desktop\project\mylib\mylib\obj\Debug\profile .baml

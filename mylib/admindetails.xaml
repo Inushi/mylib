@@ -25,7 +25,7 @@
 
         <Button Height="40" Margin="200,647,430.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Edit Details" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
         <Button Height="40" Margin="547,647,83.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Add Books" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" />
-        <Button Height="40" Margin="10.2,647,204.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Edit and Delete Books" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" Grid.Column="1" />
+        <Button Height="40" Margin="10.2,647,204.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Edit and Delete Books" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" Grid.Column="1" Click="Button_Click" />
 
     </Grid>
 </Window>

@@ -9,16 +9,16 @@
     <Grid>
         <Rectangle Margin="588,55,581.8,492.4">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\New folder\library.png"/>
+                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\project\mylib\New folder\library.png"/>
             </Rectangle.Fill>
         </Rectangle>
         <Rectangle Margin="588,349,586.8,357.4" RenderTransformOrigin="0.726,1.075">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\New folder\mylib.png"/>
+                <ImageBrush ImageSource="C:\Users\Inushi\Desktop\project\mylib\New folder\mylib.png"/>
             </Rectangle.Fill>
         </Rectangle>
-        <Button Width="160" Height="40" Margin="420,466,792.8,264.4" Background="#ffa570" FontFamily="arial black" Content="About Us" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
-        <Button Width="160" Height="40" Margin="783,466,429.8,264.4" Background="#ffa570" FontFamily="arial black" Content="Login" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" />
+        <Button Width="160" Height="40" Margin="420,466,792.8,264.4" Background="#ffa570" FontFamily="arial black" Content="About Us" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" Click="Button_Click" />
+        <Button Width="160" Height="40" Margin="783,466,429.8,264.4" Background="#ffa570" FontFamily="arial black" Content="Login" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" Click="login_click"/>
         <Label Margin="365,581,314.8,70.4" Content="The more that you read, The more things you will know.&#xA;  The more that you learn, the more places you'll go.&#xA;                                    Dr. Seuss" Foreground="#200c00" FontFamily="arial black" FontSize="22"/>
     </Grid>
 </Window>

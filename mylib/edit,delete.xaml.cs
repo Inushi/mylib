@@ -23,5 +23,19 @@ namespace mylib
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window8 toLogin = new Window8();
+            toLogin.Show();
+            this.Hide();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window8 toLogin = new Window8();
+            toLogin.Show();
+            this.Hide();
+        }
     }
 }

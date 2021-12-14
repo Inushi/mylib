@@ -24,5 +24,19 @@ namespace mylib
         {
             InitializeComponent();
         }
+
+        private void login_click(object sender, RoutedEventArgs e)
+        {
+            Window1 toLogin = new Window1();
+            toLogin.Show();
+            this.Hide();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window5 toLogin = new Window5();
+            toLogin.Show();
+            //this.Hide();
+        }
     }
 }

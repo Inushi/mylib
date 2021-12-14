@@ -15,12 +15,12 @@
         <Label Height="50" Margin="116,370,1068.8,329.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Edit Photo"/>
 
 
-        <TextBox Height="50" Margin="399,103,179.8,617.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
-        <TextBox Height="50" Margin="399,176,179.8,544.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
-        <TextBox Height="50" Margin="399,244,179.8,476.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
-        <TextBox Height="50" Margin="399,316,179.8,404.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00"/>
+        <TextBox Height="50" Margin="399,103,179.8,617.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00" Name="name"/>
+        <TextBox Height="50" Margin="399,176,179.8,544.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00" Name="address"/>
+        <TextBox Height="50" Margin="399,244,179.8,476.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00" Name="tele_no"/>
+        <TextBox Height="50" Margin="399,316,179.8,404.4" FontFamily="arial" FontSize="20" FontWeight="Regular" Foreground="#200c00" Name="e_mail"/>
 
-        <Button Margin="584,662,530.8,62.4" Background="#ffa570" FontFamily="arial black" Content="Save" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
+        <Button Margin="584,662,530.8,62.4" Background="#ffa570" FontFamily="arial black" Content="Save" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" Click="Button_Click" />
 
         <Label Width="223.2" Height="281" Margin="399,381,750.8,108.4"/>
         <Button Height="50" Margin="647,381,598.8,339.4" Content="Browse..." FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00"/>

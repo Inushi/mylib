@@ -1,0 +1,33 @@
+﻿<Window x:Class="mylib.Window12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mylib"
+        mc:Ignorable="d"
+        Title="Window12" Height="450" Width="800">
+   
+ <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="222*"/>
+                    <ColumnDefinition Width="121*"/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Margin="588,39,83.4,480.4" RenderTransformOrigin="0.726,1.075"/>
+                <Label Height="50" Margin="116,361,584.4,359.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Name"/>
+                <Label Height="50" Margin="116,420,584.4,300.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Address"/>
+                <Label Height="50" Margin="116,480,584.4,240.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Telephone No"/>
+                <Label Height="50" Margin="116,540,584.4,180.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Content="Email Address"/>
+
+
+                <Label Height="50" Margin="399,361,179.8,359.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Grid.ColumnSpan="2"/>
+                <Label Height="50" Margin="399,420,179.8,300.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Grid.ColumnSpan="2"/>
+                <Label Height="50" Margin="399,480,179.8,240.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Grid.ColumnSpan="2"/>
+                <Label Height="50" Margin="399,540,179.8,180.4" FontFamily="arial" FontSize="27" FontWeight="Regular" Foreground="#200c00" Grid.ColumnSpan="2"/>
+
+                <Button Height="40" Margin="200,647,430.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Edit Details" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.419,1.22" />
+                <Button Height="40" Margin="547,647,83.8,83.4" Background="#ffa570" FontFamily="arial black" Content="Add Books" FontSize="20" Foreground="#200c00" RenderTransformOrigin="0.231,0.595" />
+                
+ </Grid>
+</Window>
+
+ 
